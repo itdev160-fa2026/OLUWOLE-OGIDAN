@@ -56,7 +56,7 @@ function scopeDemo() {
 scopeDemo();
 console.log("Outside function:");
 console.log("- Can access global:", globalVariable);
-// console.log(localVariable); // This would cause an error
+// console.log(localVariable); // This would cause an errorr
 
 console.log("\n=== Function demonstrations complete! ===");
 console.log("Check the to-do list below for the enhanced application.");
