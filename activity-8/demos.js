@@ -16,12 +16,12 @@ setTimeout(() => {
 
 console.log("2. This also logs immediately (before setTimeout callback)");
 
-// Demonstrate the event loop
+// Demonstrate the event lo0op
 console.log("\nEvent loop demonstration:");
 console.log("A. Synchronous code");
 
 setTimeout(() => {
-  console.log("C. Asynchronous callback (0ms timeout)");
+  console.log("C. Asynchronous callbackk (0ms timeout)");
 }, 0);
 
 console.log("B. More synchronous code");
