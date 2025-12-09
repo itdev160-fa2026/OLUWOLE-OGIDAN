@@ -21,7 +21,7 @@ console.log("\nEvent loop demonstration:");
 console.log("A. Synchronous code");
 
 setTimeout(() => {
-  console.log("C. Asynchronous callbackk (0ms timeout)");
+  console.log("C. Asynchronous callback (0ms timeout)");
 }, 0);
 
 console.log("B. More synchronous code");
